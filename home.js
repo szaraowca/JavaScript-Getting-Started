@@ -1,16 +1,10 @@
-let name ="Hello "World"",
-    price =20.22,
-    discounted = false;
+let name = 'wild';
+let message = `hello ${name}`;
+let word = message.toUpperCase() + " Word";
+let amount = 123.12
+    amount = amount.toString();
+//it makes amount into string 
+//let amount = Number.parseFloat("123.12") it changes string into number
 
-    price= price + 1;
-
-    /* you can use also - * + %, and you can write down: price *=2, 
-    */ 
-const sale = 10.22;
-
-// below choose between name, price, discounted or sale
-
-showMessage(name)
-
-//if you write ++price (--price) it will add (subtract)  1 to price, -
+showMessage(word + 12);
 
